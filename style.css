@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #bc5648;
+}
+header {
+  background-color: #9d381a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 35px;
+}
+footer {
+  background-color: #56866e;
+}
+
+.Logotipo {
+  width: 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.Logotipo {
+  width: 70px;
+}
+
+.Khanom {
+  width: 200px;
+  height: 200px;
+}
+
+.home {
+  background-image: url(img/WhatsApp\ Image\ 2026-10-16\ at\ 09.28.54.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.conteudo-home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px 35px;
+    padding-top: 10vh
+}
+
+.h2-home{
+    font-weight: 500;
+    font-size: 64px;
+    color: white;
+}
+
+.p-home{
+    font-family: 'Instrument Sans';
+    color: white;
+    font-size: 24px;
+}
+
+.btn-cardapio{
+    background-color: #56866e;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#sobre {
+  background-color: pink;
+  padding: 40px;
+}
+
+#sobre h2 {
+  color: yellow;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.caixa-sobre {
+  background-color: #c87f19;
+  padding: 40px;
+  border-radius: 10px;
+}
+.caixa-sobre h3 {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.caixa-sobre p {
+  font-size: 24px;
+  line-height: 1.6;
+  font-weight: bold;
+}
+.cardapio {
+  width: 90%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.btn-pedido {
+  color: white;
+  border: 1px solid black;
+  background-color: #853219;
+  border-radius: 10px;
+  padding: 5px;
+}
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.rodape img{
+    width: 120px;
+    height: auto;
+    margin-right: auto;
+    display: flex;
+}
+.rodape h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 500px;
+}
+.rodape p{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+} 
+    
