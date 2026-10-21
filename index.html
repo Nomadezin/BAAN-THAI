@@ -1,109 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Restaurante</title>
-    </head>
-    <body>
-        <header>
-            <img src="img/Logotipo Baan Thai com Pimenta e Manga (1).png" class="Logotipo">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Baan Thai</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <nav class="menu">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#contato">Contato</a>
+      <a href="#cardapio" class="menu__pedido">Faça seu pedido</a>
+    </nav>
+  </header>
 
-            <nav>
-                <a href="#">inicio</a>
-                <a href="#">Sobre</a>
-                <a href="#">cardapio</a>
-                <a href="#">contato</a>
-            </nav>
+  <main>
+    
+    <section id="inicio" class="hero">
+      <div class="hero__texto">
+        <h1>Boas estadias,<br>Boas experiências</h1>
+        <p>
+          Comidas diferenciadas vindo diretamente da Tailândia.
+          Venha dividir gostos e opiniões com ingredientes orgânicos
+          e direto da Tailândia.
+        </p>
+        <a href="#cardapio" class="botao">Cardápio</a>
+      </div>
+      
+    </section>
 
-            <button class="btn-pedido">Faça seu pedido</button>
-        </header>
-        <section class="home">
-            <div class="conteudo-home">
-                <h2 class="h2-home">Boa estadia,<br>Boas experiencias</h2>
-                <p class="p-home">
-                    Comidas diferenciadas vindo diretamente da taliandia,<br>
-                    venha dividir gostos e opinioes com ingredientes orgânicos.
-                </p>
-                <button class="btn-cardapio">cardapio</button>
-            </div>
-        </section>
-        <main>
-            <section id="Sobre">
-                <h2>Sobre</h2>
-                <div class="caixa-sobre">
-                    <h3>BAAN THAI -Uma viagem de sabores!</h3>
-                    <p>
-                        Venha descobrir os encantos da culinária Tailandesa no Baan Thail!<br>
-                        Explore sabores exoticos,aromas irresistiveis e pratos preparados<br>
-                        com ingredientes frescos e muito carinho.Deixe se levar por essa<br>
-                        Experiencia única e descubra um pedacinho da taliandia em cada<br>
-                        Mordida.<br>
-                        Estamos esperando por você.
-                    </p>
-                </div>
-            </section>
-            <section class="cardapio">
-                <h2>Nosso Cardápio</h2>
-                <h3>Pratos Principais</h3>
+    
+    <section id="sobre" class="secao">
+      <h2 class="titulo">Sobre</h2>
+      <div class="caixa-sobre">
+        <h3>BAAN THAI – Uma viagem de sabores! 🇹🇭</h3>
+        <p>
+          Venha descobrir os encantos da culinária tailandesa no Baan Thai!
+          Explore sabores exóticos, aromas irresistíveis e pratos preparados
+          com ingredientes frescos e muito carinho. Deixe-se levar por essa
+          experiência única e descubra um pedacinho da Tailândia em cada
+          mordida. Estamos esperando por você!
+        </p>
+      </div>
+    </section>
 
-                <div class="cards">
-                    <img src="img/asas de frango estilo Buffalo.jpg" alt="">
-                    <h4>Asa de Frango</h4>
-                    <p>R$ 26,40</p>
-                </div>
+    
+    <section id="cardapio" class="secao">
+      <h2 class="titulo">NOSSO CARDÁPIO</h2>
 
-                <div class="card">
-                    <img src="img/curry verde.jpg" alt="">
-                    <h4>curry verde</h4>
-                    <p>R$ 39,90</p>
-                </div>
-                <div class="card">
-                    <img src="img/Som tam.jpg" alt="">
-                    <h4>Som tam</h4>
-                    <p>R$ 35,40</p>
-                </div>
+      
+      <nav class="abas">
+        <a href="#pratos">Pratos Principais</a>
+        <a href="#sobremesas">Sobremesas</a>
+      </nav>
 
-                <div class="card">
-                    <img src="img/Pad Thai.jpg" alt="">
-                    <h4>Pad Thai</h4>
-                    <p>R$ 39,90</p>
+     
+      <h3 id="pratos" class="categoria">Pratos Principais</h3>
+      <div class="grade">
 
-                </div>
-                <h3>Sobremesas</h3>
+        <article class="card">
+          <img src="img/asas de frango estilo Buffalo.jpg" alt="Asas de frango estilo Buffalo">
+          <h4>Asas de frango estilo Buffalo</h4>
+          <p class="preco">R$ 28,40</p>
+        </article>
 
-                <div class="card">
-                    <img src="img/Khanom Buang Thai Crepes_.jpg" alt="">
-                    <h4>Crepes</h4>
-                    <p>R$ 9,40</p>
-                </div>
-                <div class="cards">
-                    <img src="img/Thai Mango Sticky Rice.jpg" alt="">
-                    <h4>Sticky Rice</h4>
-                    <p>R$ 23,90</p>
-                </div>
-                <div class="card">
-                    <img src="img/Khanom Mo Kaeng pudim de coco tailandês.jpg" alt="">
-                    <h4>Khanom  mo Kaeng</h4>
-                    <p>R$ 10,00</p>
-                </div>
-                <div class="cards">
-                    <img src="img/Roti Sai Mai.jpg" alt="">
-                    <h4>Roti Sai</h4>
-                    <p>R$ 18,00</p>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <hr>
-            <section>
-                <div class="rodape">
-                    <img src="img/Logotipo Baan Thai com Pimenta e Manga (1).png" alt="">
-                    <h2><em>Av.São Luís,30-Republica,São Paulo - SP,01046-000</em></h2>
-                    <p>Formas de pagamento</p>
-                </div>
-            </section>
-        </footer>
-    </body>
+        <article class="card">
+          <img src="img/curry verde.jpg" alt="Curry Verde">
+          <h4>Curry Verde</h4>
+          <p class="preco">R$ 39,90</p>
+        </article>
+
+        <article class="card">
+          <img src="img/Pad Thai.jpg" alt="Pad Thai">
+          <h4>Pad Thai</h4>
+          <p class="preco">R$ 39,90</p>
+        </article>
+
+        <article class="card">
+          <img src="img/Som tam.jpg" alt="Som Tam">
+          <h4>Som Tam</h4>
+          <p class="preco">R$ 35,40</p>
+        </article>
+
+      </div>
+
+      <!-- Categoria: sobremesas -->
+      <h3 id="sobremesas" class="categoria">Sobremesas</h3>
+      <div class="grade">
+
+        <article class="card">
+          <img src="img/Khanom Buang Thai Crepes_.jpg" alt="Khanom Buang Thai Crepes">
+          <h4>Khanom Buang Thai Crepes</h4>
+          <p class="preco">R$ 9,40</p>
+        </article>
+
+        <article class="card">
+          <img src="img/Thai Mango Sticky Rice.jpg" alt="Thai Mango Sticky Rice">
+          <h4>Thai Mango Sticky Rice</h4>
+          <p class="preco">R$ 23,90</p>
+        </article>
+
+        <article class="card">
+          <img src="img/Khanom Mo Kaeng pudim de coco tailandês.jpg" alt="Khanom Mo Kaeng, pudim de coco tailandês">
+          <h4>Khanom Mo Kaeng, pudim de coco tailandês</h4>
+          <p class="preco">R$ 10,00</p>
+        </article>
+
+        <article class="card">
+          <img src="img/Roti Sai Mai.jpg" alt="Roti Sai Mai">
+          <h4>Roti Sai Mai</h4>
+          <p class="preco">R$ 18,00</p>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 5. RODAPÉ -->
+  <footer id="contato" class="rodape">
+    <img src="img/Logotipo Baan Thai com Pimenta e Manga (1).png"Logo Baan Thai" class="rodape__logo">
+
+    <div class="rodape__info">
+      <p><strong>Formas de pagamento</strong></p>
+      <ul class="pagamentos">
+        <li>Visa</li>
+        <li>Mastercard</li>
+        <li>Elo</li>
+        <li>Pix</li>
+      </ul>
+      <address>Av. São Luís, 30 – República, São Paulo - SP, 01046-000</address>
+    </div>
+
+    <div class="rodape__contato">
+      <p class="redes">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+      </p>
+      <a href="tel:+5511985792533">(11) 98579-2533</a>
+    </div>
+  </footer>
+
+</body>
 </html>
